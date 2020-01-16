@@ -1,0 +1,234 @@
+p, a, h1, .theDropdownButton {
+    font-family: 'arial'
+}
+.entirety {
+    display: flex;
+    flex-direction: column;
+}
+.theHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    padding: 19px;
+    top: 0;
+    width: 98%;
+    z-index: 9999;
+    background-color: darkblue;
+}
+.theHeader a {
+    color:white;
+    font-size: 19px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.theDropdowns {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.theRight {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.randomWords {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:blue;
+    padding: 19px;
+    margin-top: 39px;
+}
+.randomWords a{
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
+.bigCaptionWords {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 49px;
+}
+.bigCaptionWords img {
+    width: 650px;
+    margin: auto;
+}
+.bigCaptionWords p {
+    font-style: italic;
+    font-size: 45px;
+    margin: auto;
+    color:red;
+  }
+.moreFood{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:gray;
+    text-align: center;
+    padding: 49px;
+}
+.moreFood p{
+    color: white;
+    font-size: 19px;
+    text-decoration: none;
+}
+.somemoreFood {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color:lavenderblush;
+    padding: 49px;
+    justify-content: space-around;
+    color:darkblue;
+    text-decoration: none;
+    font-size: 19px;
+}
+.theCustomers{
+    display: flex;
+    flex-direction: column;
+    padding: 19px;
+    margin-right: 29px;
+    justify-content: space-around;
+}
+.theCustomers p{
+    margin-top: 20px;
+}
+.theCustomers a {
+    background-color:white;
+    color: blue;
+    text-decoration: none;
+    padding: 9px;
+    margin-top: 19px;
+    border-radius: 4px;
+    font-size: 29px;
+}
+.theCustomers img {
+    border-radius: 4px;
+}
+
+.thePurpose {
+    display: flex;
+    flex-direction: column;
+    padding: 19px;
+    margin-right: 29px;
+    justify-content: space-around;
+}
+.thePurpose a{
+    background-color: lightgoldenrodyellow;
+    padding: 9px;
+    margin-top: 19px;
+    border-radius: 4px;
+    font-size: 29px;
+    color:blue;
+    text-decoration: none;
+}
+.thePurpose img {
+    border-radius: 4px;
+}
+.thePurpose p {
+    margin-top: 20px;
+}
+.theUnemployed {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 19px;
+    background-color:lightblue;
+}
+.theUnemployed a {
+    background-color:lightgoldenrodyellow;
+    color: darkblue;
+    text-decoration: none;
+    padding: 9px;
+    margin-top: 19px;
+    border-radius: 4px;
+    font-size: 29px;
+}
+.theUnemployed img {
+    border-radius: 4px;
+}
+.theUnemployed p {
+    margin-top: 19px;
+}
+
+.theHistory {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 19px;
+    background-color: rgb(22, 54, 54);
+}
+.theHistory a {
+    background-color:blue;
+    color: white;
+    text-decoration: none;
+    padding: 9px;
+    margin-top: 19px;
+    border-radius: 4px;
+    font-size: 29px;
+  }
+.theHistory img {
+    border-radius: 4px;
+}
+.theHistory p {
+    margin-top: 19px;
+}
+.theDropdownButton {
+    background-color: white;
+    color: lavenderblush;
+    font-size: 19px;
+    border-color: Transparent;
+}
+.theDropdownContent {
+    display: none;
+    position: absolute;
+    min-width: 165px;
+    box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+    background-color: white;
+}
+.theDropdownContent a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 13px 17px;
+}
+.theDropdownContent a:hover {
+    background-color: lavender;
+}
+.theDropact:hover .theDropdownContent {
+    display: block;
+}
+.footer, .footer a {
+    padding: 10px 0px 20px 0px;
+    margin: 0px auto;
+    font: 10px Tahoma, Geneva, sans-serif;
+    color: #a7aea8;
+    width: 902px;
+}
+.footer a:hover {
+    color: Blue;
+    text-decoration: underline;
+}
+
+.footerrol {
+    background-color: sandybrown;
+    border-color: purple;
+    border-width: thin;
+    clear: both;
+    color: midnightblue;
+    font-family: Verdana;
+    font-size: 8pt;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: bottom;
+}
+
+@media only screen and (max-width: 999px) {
+    .randomWords, .moreFood, .somemoreFood {
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+   }
+ }
