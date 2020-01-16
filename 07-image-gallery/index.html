@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+
+<head>
+        <meta charset="utf-8">
+        <title>Airplane Image Gallery</title>
+        <link rel="stylesheet" href="style.css">
+      </head>
+
+      <body>
+            <div id="header">
+              <h1>Airplane Image Gallery</h1>
+            </div>
+      <div class="Row">
+            <div class="Col">
+              <img class="pic" id="img1" src="1.jpg" alt="image1" style="width:400px; height: 300px"
+                onclick="enlarge(this);">
+            </div>  
+            <div class="Col">
+                <img class="pic" id="img2" src="2.jpg" alt="boeing" style="width:400px; height: 300px"
+                onclick="enlarge(this);">
+            </div>  
+            <div class="Col">
+                <img class="pic" id="img2" src="3.jpg" alt="boeing" style="width:400px; height: 300px"
+                onclick="enlarge(this);">
+             </div> 
+             <div class="Col">
+                    <img class="pic" id="img3" src="4.jpg" alt="boeing" style="width:400px; height: 300px"
+                    onclick="enlarge(this);">
+            </div> 
+            <div class="Col">
+                    <img class="pic" id="img4" src="5.jpg" alt="boeing" style="width:400px; height: 300px"
+                    onclick="enlarge(this);">
+            </div> 
+            <div class="Col">
+                    <img class="pic" id="img3" src="6.jpg" alt="boeing" style="width:400px; height: 300px"
+                    onclick="enlarge(this);">
+            </div> 
+            <div class="Col">
+                    <img class="pic" id="img3" src="7.jpg" alt="boeing" style="width:400px; height: 300px"
+                    onclick="enlarge(this);">
+            </div> 
+            <div class="Col">
+                    <img class="pic" id="img3" src="8.jpg" alt="boeing" style="width:400px; height: 300px"
+                    onclick="enlarge(this);">
+            </div> 
+            <div class="Col">
+                    <img class="pic" id="img3" src="9.jpg" alt="boeing" style="width:400px; height: 300px"
+                    onclick="enlarge(this);">
+            </div> 
+            <div class="Col">
+                    <img class="pic" id="img3" src="10.jpg" alt="boeing" style="width:400px; height: 300px"
+                    onclick="enlarge(this);">
+            </div> 
+            <div class="Col">
+                    <img class="photo" id="img3" src="11.jpg" alt="boeing" style="width:400px; height: 300px"
+                    onclick="enlarge(this);">
+            </div> 
+            <div class="Col">
+                    <img class="photo" id="img3" src="12.jpg" alt="boeing" style="width:400px; height: 300px"
+                    onclick="enlarge(this);">
+            </div> 
+
+        </div>
+
+        <div class="expand">
+                <span id="closingButton" onclick="this.parentElement.style.display='none'; var prev = document.getElementById('prev'); prev.style.display='none';var next = document.getElementById('next'); nextButton.style.display='none';">&times;</span>
+                <img id="expandimg">
+        </div>
+            
+              <button id="prev" onclick="change(-1)">Prev</button>
+              <button id="next" onclick="change(+1)">Next</button>
+              <script type="text/javascript" src="js.js"></script>
+
+
+    </body>
+
+    </html>
+
+
+
+
+
+
+
+
+
+
