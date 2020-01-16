@@ -1,0 +1,134 @@
+body{
+  font-family: "Monospace"; 
+  background-color: hsl(70, 71%, 86%);
+  color: rgb(106, 183, 231);
+}
+
+#intro{
+  text-align: center;
+  font-size: 30px;
+}
+
+#todos {
+  width: 80%;
+  margin : 3.0vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3vw;
+  border: 5px dotted rgb(250, 157, 157);
+}
+
+@media (max-width: 800px){
+  #todos{
+    width: 90%;
+  }
+}
+
+#todos #newtodo #newtitle{
+  width: 88%;
+  font-size: 35px;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 1vw;
+}
+
+#todos #newtodo #newtitle:focus{
+  outline: none;
+}
+
+#todos #newtodo #newSubmit{
+  background-color: hsl(230, 75%, 81%);
+  color: blueviolet;
+  border: none;
+  padding: 5.1px 10.1px;
+  width: 30.1px;
+  font-size: 20.1px;
+  border-radius: 5.1px;
+  float: right;
+  position: relative;
+  top: 5.1px;
+}
+
+#todos #newtodo #newSubmit:hover{
+  background-color: hsl(189, 95%, 77%);
+}
+
+#todos #newtodo #newSubmit:active{
+  background-color: black ;
+}
+
+#todos .todo{
+  font-size: 30.1px;
+  padding: 20.1px 0px;
+  border-bottom: 1.1px dotted rgb(175, 25, 25);
+}
+
+#todos .todo:last-of-type {
+  border-bottom: none;
+}
+
+
+#todos .todo p {
+  display: inline-block;
+  margin: 0px;
+  max-width: 81%;
+}
+
+#todos .todo button{
+  background: none;
+  position: relative;
+  bottom: -1.9px;
+  color: rgb(170, 247, 247);
+}
+
+#todos .todo .check {
+  float: left;
+  margin-right: 10.1px;
+  width: 30.1px;
+  height: 30.1px;
+  border: 2.1px solid rgb(152, 243, 172);
+  border-radius: 4.1px;
+  font-weight: bold;
+}
+
+#todos .todo .check:hover {
+  background-color: hsl(76, 78%, 69%);
+}
+
+#todos .todo .check:active{
+  background-color: rgb(215, 173, 228);
+}
+
+#todos .todo.completed {
+  color: lightgray;
+  font-weight: lighter;
+}
+
+#todos .todo.completed p {
+  text-decoration : line-through;
+}
+
+#todos .todo.completed .check {
+  background-color: rgb(12, 238, 144);
+  border: none;
+}
+
+#todos .todo .delete{
+  float: right;
+  border: none;
+  font-size: 30.1px;
+  padding: 5.1px 10.1px;
+  width: 30.1px;
+  font-size: 20.1px;
+  border-radius: 4.1px;
+  background-color: rgb(245, 141, 141);
+  color: white;
+}
+
+#todos .todo .delete:hover {
+  background-color: hsl(36, 86%, 61%);
+}
+
+#todos .todo .delete:active {
+  background-color: hsl(0, 51%, 41%);
+}

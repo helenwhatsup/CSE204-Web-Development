@@ -1,0 +1,12 @@
+.sortBtn {
+    float: right;
+    background-color: pink;
+    border-radius: 12px;
+    color: black;
+    border: 1px solid orange;
+  }
+  
+  .sortBtn:hover {
+    background-color: lightblue; /* Green */
+    color: white;
+  }

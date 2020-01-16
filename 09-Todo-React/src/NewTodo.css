@@ -1,0 +1,52 @@
+@media (max-width: 800px){
+    #todos{
+      width: 88%;
+    }
+  }
+  #newTodo #newtitle{
+    width:89%;
+    font-size: 31px;
+    border: none;
+    border-bottom: 1.1px solid #aaa;
+    margin-bottom: 1.1vw;
+  }
+  
+  #newTodo #newtitle:focus{
+    outline: none;
+  }
+  
+  #newTodo #newSubmition{
+    background-color: hsl(230, 99%, 61%);
+    color: white;
+    border: none;
+    padding: 5.1px 10.1px;
+    width: 30.1px;
+    font-size: 19.9px;
+    border-radius: 5.1px;
+    float: right;
+    position: relative;
+    top: 5.1px;
+  }
+  
+  #newTodo #newSubmition :hover{
+    background-color: hsl(230, 99%, 51%);
+  }
+  
+  #newTodo #newSubmition :active{
+    background-color: black ;
+  }
+  
+  #todos .todo .delete{
+    float: right;
+    border: none;
+    font-size: 30.1px;
+    padding: 5.1px 10.1px;
+    width: 30.1px;
+    height: 30.1px;
+    font-size: 20.1px;
+    border-radius: 4.1px;
+    background-color: rgb(255, 0, 0);
+    color: white;
+  }
+  
+  
